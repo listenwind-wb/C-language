@@ -11,21 +11,10 @@
 
 int main()
 {
-	//07
-	int arr[3][4] = { {1,2},{5,6},{9,1,9} };
-	int i = 0;
-	for (i = 0; i < 3; i++)
-	{
-		int j = 0;
-		for (j = 0; j < 4; j++)
-		{
-			if (arr[i][j] == 9)
-				arr[i][j] = 10;
-			printf("%2d ", arr[i][j]);
-
-		}
-		printf("\n");
-	}
+	int arr[10];
+	printf("%p\n", arr);
+	printf("%p\n", &arr[0]);
+	
 
 
 

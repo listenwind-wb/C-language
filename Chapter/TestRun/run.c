@@ -10,14 +10,22 @@
 
 int main()
 {
+	/*int c;
+	
+	while ((c = getchar()) != EOF)
+	{
+		if (c == '\t')
+			printf("\t");
+	    else if (c == '\b')
+			printf("\b");
+		else if (c == '\\')
+			printf("\\");
+		else
+			putchar(c);
+	}*/
+	
 
-
-
-	//1.2.2
-	double nc;
-	for (nc = 0; getchar() != EOF; ++nc)
-		;
-	printf("%.0f\n", nc);
+	
 
 
 

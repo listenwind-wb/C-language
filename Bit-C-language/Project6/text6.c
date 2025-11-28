@@ -7,8 +7,27 @@
 #include <math.h>
 #include <stdbool.h>
 
-int count = 0;
+//数组传参的时候，形参有两种写法：int arr[] 或 int* arr     数组or指针
+void bubble_sort(int arr[], int sz)
+{
+	int i = 0;
+	for (i = 0; i < sz - 1; i++)
+	{
+		int j = 0;
+		for (j = 0; j < sz - 1 - i; j++)
+		{
+			if (arr[j] > arr[j + 1])
+			{
+				int tmp = arr[j];
+				arr[j] = arr[j + 1];
+				arr[j + 1] = tmp;
+			}
+		}
 
+	}
+}
+
+int count = 0;
 int Fib1(int n)
 {
 	int a = 1;
@@ -128,12 +147,56 @@ int main()
 		printf("arr[%d] = %p\n", i, &arr[i]);
 	}
 
-	//07
+	//07.二维数组的创建与初始化
 	int arr[3][4] = { {1,2},{5,6},{9,1} };
 	int arr1[][4] = { {1,23,4},{5,6} };
 	int arr2[2][2] = { 1,2,3,4 };
 	char arr3[5][10];
 
+	//08.二维数组元素的地址
+	int arr[3][4] = { 1,2,3,4,2,3,4,5,3,4,5,6 };
+	int i = 0;
+	for (i = 0; i < 3; i++)
+	{
+		int j = 0;
+		for (j = 0; j < 4; j++)
+			printf("arr[%d][%d] = %p\n", i, j, &arr[i][j]);
+	}
+
+	//09.数组的越界访问
+	int arr[] = { 1,2,3,4,5,6 };
+	int i = 0;
+	for (i = 0; i < 10; i++)
+	{
+		printf("arr[%d] = %d\n", i, arr[i]);
+	}
+
+	
+	int arr[] = { 1,2,3,4,5,6 };
+	int i = 0;
+	int sz = sizeof(arr) / sizeof(arr[0]);            //可一定程度上避免越界
+	for (i = 0; i < sz; i++)
+	{
+		printf("arr[%d] = %d\n", i, arr[i]);
+	}
+
+	int arr[3][4] = { 1,2,3,4,5,6,7,8,9,10,11,21 };
+	int i = 0;
+	for (i = 0; i < 3; i++)
+	{
+		int j = 0;
+		for (j = 0; j <= 4; j++)
+			printf("arr[%d][%d] = %d\n", i, j, arr[i][j]);
+	}
+
+	//10.数组传参——冒泡排序
+	int arr[] = { 4,5,2,7,5,2,5,53,757,42,48 };
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	bubble_sort(arr, sz);
+	for (int i = 0; i < sz; i++)
+	{
+		printf("%d ", arr[i]);
+	}
 
 
 
