@@ -198,6 +198,25 @@ int main()
 		printf("%d ", arr[i]);
 	}
 
+	//11
+	int arr[10];
+	printf("%p\n", arr);        //arr表示首元素地址
+	printf("%p\n", arr + 1);
+	printf("--------------------\n");
+	printf("%p\n", &arr[0]);    //首元素地址
+	printf("%p\n", &arr[0] + 1);
+	printf("--------------------\n");
+	printf("%p\n", &arr);      //&arr表示整个数组地址
+	printf("%p\n", &arr + 1);
+	int n = sizeof(arr);       //arr表示整个地址
+	printf("n = %d\n", n);
+
+	//12
+	int arr[3][4];
+	int sz = sizeof(arr);
+	printf("%d\n", sz);
+	printf("%p\n", arr);
+	printf("%p\n", arr + 1);
 
 
 

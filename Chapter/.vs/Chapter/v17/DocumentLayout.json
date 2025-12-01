@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "TestRun\\run.c",
               "ToolTip": "C:\\C-language\\C-language\\Chapter\\TestRun\\run.c",
               "RelativeToolTip": "TestRun\\run.c",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-27T14:28:31.527Z",
               "IsPinned": true,
@@ -66,7 +66,7 @@
               "RelativeDocumentMoniker": "Chapter1\\1.5.c",
               "ToolTip": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.5.c",
               "RelativeToolTip": "Chapter1\\1.5.c",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAmwF8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-27T14:29:28.738Z",
               "EditorCaption": ""
@@ -81,8 +81,7 @@
               "RelativeToolTip": "Chapter1\\1.4.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-27T14:29:18.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T14:29:18.773Z"
             },
             {
               "$type": "Document",
@@ -94,8 +93,7 @@
               "RelativeToolTip": "Chapter1\\1.3.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-27T14:29:03.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T14:29:03.969Z"
             },
             {
               "$type": "Document",
@@ -107,8 +105,7 @@
               "RelativeToolTip": "Chapter1\\1.2.c",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-27T14:28:54.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T14:28:54.992Z"
             },
             {
               "$type": "Document",

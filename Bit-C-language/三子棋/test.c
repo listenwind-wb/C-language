@@ -1,0 +1,43 @@
+#define _CRT_SECURE_NO_WARNINGS  // 消除VS中scanf等函数的安全警告
+#include <stdio.h>               // 标准输入输出头文件
+#include <stdlib.h>              // 内存管理等函数头文件
+#include <time.h>                // 时间相关函数（本代码未使用）
+#include <windows.h>            // Windows系统函数（本代码未使用）
+#include <string.h>             // 字符串操作函数头文件
+#include <math.h>               // 数学函数头文件（如abs、max）
+#include <stdbool.h>            // 布尔类型支持头文件
+
+void menu()
+{
+    printf("*************************\n");
+    printf("*******  1.play  ********\n");
+    printf("*******  0.exit  ********\n");
+}
+void game()
+{
+    char board[3][3] = { 0 };
+}
+
+int main()
+{
+    int input = 0;
+    do
+    {
+        menu();
+        printf("请选择:>");
+        scanf("%d", &input);
+        switch (input)
+        {
+        case 1:
+            game();
+            break;
+        case 0:
+            printf("退出游戏\n");
+            break;
+        default:
+            printf("输入错误\n");
+            break;
+        }
+    } while (input);
+    return 0;
+}
