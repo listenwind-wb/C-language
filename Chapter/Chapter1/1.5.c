@@ -132,6 +132,31 @@ int main()
 	}
 	printf("nl = %d , nw = %d , nc = %d\n", nl, nw, nc);
 
+	//4.2
+	int c = 0;
+	int state = OUT;
+	int count = 0;
+	while ((c = getchar()) != EOF)
+	{
+		if (c == ' ' || c == '\n' || c == '\t' || c == ',')
+		{
+			if (state == IN)
+			{
+				state = OUT;
+				printf("\n");
+			}
+		}
+		else if (state == OUT)
+		{
+			state = IN;
+			count = 0;
+		}
+		if (state == IN)
+		{
+			putchar(c);
+		}
+	}
+
 
 
 

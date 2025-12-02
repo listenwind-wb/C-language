@@ -6,7 +6,7 @@
 #include <string.h>             // 字符串操作函数头文件
 #include <math.h>               // 数学函数头文件（如abs、max）
 #include <stdbool.h>            // 布尔类型支持头文件
-
+#include "game.h"
 void menu()
 {
     printf("*************************\n");
@@ -15,7 +15,15 @@ void menu()
 }
 void game()
 {
-    char board[3][3] = { 0 };
+    char board[ROW][COL] = { 0 };
+    InitBoard(board, ROW, COL);
+    DisplayBoard(board, ROW, COL);
+    while (1)
+    {
+        PlayerMove(board, ROW, COL);
+        DisplayBoard(board, ROW, COL);
+        ComputerMove(board, ROW, COL);
+    }
 }
 
 int main()
