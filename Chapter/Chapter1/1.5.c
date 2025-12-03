@@ -135,7 +135,6 @@ int main()
 	//4.2
 	int c = 0;
 	int state = OUT;
-	int count = 0;
 	while ((c = getchar()) != EOF)
 	{
 		if (c == ' ' || c == '\n' || c == '\t' || c == ',')
@@ -149,7 +148,6 @@ int main()
 		else if (state == OUT)
 		{
 			state = IN;
-			count = 0;
 		}
 		if (state == IN)
 		{

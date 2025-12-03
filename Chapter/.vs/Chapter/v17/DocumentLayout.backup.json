@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{EBB69657-6F44-4501-9341-22847EEDB6C5}|TestRun\\TestRun.vcxproj|solutionrelative:TestRun\\run.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{08B1E7E9-0257-45EE-912A-2FFAFE10C603}|Chapter1\\Chapter1.vcxproj|C:\\C-language\\C-language\\Chapter\\Chapter1\\1.6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08B1E7E9-0257-45EE-912A-2FFAFE10C603}|Chapter1\\Chapter1.vcxproj|solutionrelative:Chapter1\\1.6.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08B1E7E9-0257-45EE-912A-2FFAFE10C603}|Chapter1\\Chapter1.vcxproj|C:\\C-language\\C-language\\Chapter\\Chapter1\\1.5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08B1E7E9-0257-45EE-912A-2FFAFE10C603}|Chapter1\\Chapter1.vcxproj|solutionrelative:Chapter1\\1.5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -44,7 +48,7 @@
               "RelativeDocumentMoniker": "TestRun\\run.c",
               "ToolTip": "C:\\C-language\\C-language\\Chapter\\TestRun\\run.c",
               "RelativeToolTip": "TestRun\\run.c",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-27T14:28:31.527Z",
               "IsPinned": true,
@@ -61,19 +65,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "1.6.c",
+              "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.6.c",
+              "RelativeDocumentMoniker": "Chapter1\\1.6.c",
+              "ToolTip": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.6.c",
+              "RelativeToolTip": "Chapter1\\1.6.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-12-03T03:09:40.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "1.5.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.5.c",
               "RelativeDocumentMoniker": "Chapter1\\1.5.c",
               "ToolTip": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.5.c",
               "RelativeToolTip": "Chapter1\\1.5.c",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAmwJ0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwIwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-27T14:29:28.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T14:29:28.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "1.4.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.4.c",
               "RelativeDocumentMoniker": "Chapter1\\1.4.c",
@@ -85,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "1.3.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.3.c",
               "RelativeDocumentMoniker": "Chapter1\\1.3.c",
@@ -97,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "1.2.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.2.c",
               "RelativeDocumentMoniker": "Chapter1\\1.2.c",
@@ -109,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "1.1.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1.1.c",
               "RelativeDocumentMoniker": "Chapter1\\1.1.c",
