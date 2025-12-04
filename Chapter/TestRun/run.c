@@ -7,101 +7,41 @@
 #include <math.h>
 #include <stdbool.h>
 
-#define  IN    1
-#define  OUT   0
+#define	 CH    100         //字符
+#define  COU   2         //计次
 
-void print_table1(int lword[])
+void InitArray(char Array[COU][CH], int row, int col)
 {
-	int i, j;
-	i = j = 0;
-
-	for (i = 0; i < 15; i++)
-	{
-		printf("%d\t", i + 1);
-		for (j = 0; j < lword[i]; j++)
-		{
-			printf("* ");
-		}
-		printf("\n");
-	}
-}
-
-void print_table2(int lword[])
-{
-	int i, j, max;
-	max = lword[0];
-	for (i = 1; i < 15; i++)
-	{
-		if (max < lword[i])
-		{
-			max = lword[i];
-		}
-	}
-	int row = max + 1;
+	int i = 0;
+	int j = 0;
 	for (i = 0; i < row; i++)
 	{
-		if (i == row - 1)
-		{
-			int k = 0;
-			for (k = 0; k < 15; k++)
-			{
-				printf("\t%d", k + 1);
-			}
-			break;
-		}			
-		for (j = 0; j < 15; j++)
-		{
-			printf("\t");
-			if (lword[j] >= max - i)
-			{
-				printf("*");
-			}
-		}
-		printf("\n");
+		for (j = 0; j < col; j++)
+			Array[i][j] = '\0';
 	}
-	
-
-
-
-
-
 }
 
 int main()
 {
-	int c, wl, state, i;
-	wl = 0;
-	state = OUT;
-	int lword[15];
-	for (i = 0; i < 15; i++)
-		lword[i] = 0;
+	int c;
+	int MC = 0;     //不同字符个数
+	char StatisticsChar[COU][CH];
+	InitArray(StatisticsChar, COU, CH);
+
 	while ((c = getchar()) != EOF)
 	{
-		if (c == ' ' || c == '\n' || c == '\t')
+		if (IsSame(StatisticsChar, COU, CH, c))
 		{
-			if (state == IN)
-			{
-				lword[wl - 1]++;
-				state = OUT;
-				wl = 0;
-			}
+			MC++;
+			StatisticsChar[0][MC - 1] = c;
+			StatisticsChar[1][MC - 1] = 1;
 		}
-		else
-		{
-			state = IN;
-			wl++;
-		}
+
+
+
+
+
 	}
-	//print_table1(lword);
-	print_table2(lword);
-
-
-	
-
-	
-
-
-
 
 
 

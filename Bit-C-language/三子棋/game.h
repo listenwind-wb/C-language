@@ -24,4 +24,6 @@ void ComputerMove(char board[ROW][COL], int row, int col);
 //¼ÌÐø   - 'C'
 char Iswin(char board[ROW][COL], int row, int col);
 
+int IsFull(char board[ROW][COL], int row, int col);
+
 
