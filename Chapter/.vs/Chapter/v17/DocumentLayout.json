@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "TestRun\\run.c",
               "ToolTip": "C:\\C-language\\C-language\\Chapter\\TestRun\\run.c",
               "RelativeToolTip": "TestRun\\run.c",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-27T14:28:31.527Z",
               "IsPinned": true,
@@ -72,8 +72,7 @@
               "RelativeToolTip": "Chapter1\\1.6.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-12-03T03:09:40.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-03T03:09:40.958Z"
             },
             {
               "$type": "Document",

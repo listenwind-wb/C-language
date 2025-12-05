@@ -8,20 +8,14 @@
 #include <stdbool.h>            // 布尔类型支持头文件
 
 
+
 int main()
 {
-
-
-
+	
 	
 
 
-
-
-
-
-
-
+	
 
 
 
