@@ -217,7 +217,8 @@ int main()
 	printf("%d\n", sz);
 	printf("%p\n", arr);
 	printf("%p\n", arr + 1);
-
+	printf("%p\n", &arr);
+	printf("%p\n", &arr + 1);
 
 
 

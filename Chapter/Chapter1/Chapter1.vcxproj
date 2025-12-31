@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1-16.c" />
     <ClCompile Include="1.1.c" />
     <ClCompile Include="1.2.c" />
     <ClCompile Include="1.3.c" />

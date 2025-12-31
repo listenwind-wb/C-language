@@ -7,15 +7,11 @@
 #include <math.h>               // 数学函数头文件（如abs、max）
 #include <stdbool.h>            // 布尔类型支持头文件
 
-
-
 int main()
 {
-	
-	
 
 
-	
+
 
 
 
