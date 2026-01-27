@@ -86,6 +86,34 @@ void print(unsigned int x)
 	printf("%d ", x % 10);
 }
 
+void reverse(char* str)
+{
+	char tmp = *str;
+	int len = strlen(str);
+	*str = *(str + len - 1);
+	*(str + len - 1) = '\0';
+	if (strlen(str + 1) >= 2)
+		reverse(str + 1);
+	*(str + len - 1) = tmp;
+}
+
+int DigitSum(unsigned int n)
+{
+	if (n > 9)
+		return n % 10 + DigitSum(n / 10);
+	return n;
+}
+
+double Pow(int n, int k)
+{
+	if (k > 0)
+		return n * Pow(n, k - 1);
+	else if (k == 0)
+		return 1;
+	else
+		return 1.0 / Pow(n, -k);
+}
+
 int main()
 {
 	//01嵌套调用函数
@@ -198,7 +226,7 @@ int main()
 		printf("%d ", arr[i]);
 	}
 
-	//11
+	//11.一维数组在内存中的存储方式及地址计
 	int arr[10];
 	printf("%p\n", arr);        //arr表示首元素地址
 	printf("%p\n", arr + 1);
@@ -211,7 +239,7 @@ int main()
 	int n = sizeof(arr);       //arr表示整个地址
 	printf("n = %d\n", n);
 
-	//12
+	//12.二维数组在内存中的存储方式及地址计算
 	int arr[3][4];
 	int sz = sizeof(arr);
 	printf("%d\n", sz);
@@ -220,11 +248,23 @@ int main()
 	printf("%p\n", &arr);
 	printf("%p\n", &arr + 1);
 
+	//13.递归函数——字符串反转
+	char arr[] = "abcdefgh";
+	reverse(arr);
+	printf("%s\n", arr);
 
+	//14.函数递归求数字之和
+	unsigned int n = 0;
+	scanf("%u", &n);
+	int sum = DigitSum(n);
+	printf("%d\n", sum);
 
-
-
-
+	//15.函数递归——计算n的k次方
+	int n = 0;
+	int k = 0;
+	scanf("%d %d", &n, &k);
+	double ret = Pow(n, k);
+	printf("%f\n", ret);
 
 
 

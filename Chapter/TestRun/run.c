@@ -35,8 +35,12 @@ int main(void)
 {
     int len;
     char line[MAXLINE];
-	char longest[MAXLINE][MAXLINE * 10];
-    whlie()
+    while ((len = getline(line, MAXLINE)) > 0)
+    {
+        if (len > 5)
+            printf("%s", line);
+    }
+
     return 0;
 }
 
