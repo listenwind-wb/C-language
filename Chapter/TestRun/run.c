@@ -24,23 +24,61 @@ int getline(char s[], int lim)
     return i;
 }
 
-void copy(char to[], char from[])
+void copy(char to[MAXLINE][2 * MAXLINE], char from[], int n)
 {
     int i = 0;
-    while ((to[i] = from[i]) != '\0')
+    while ((to[n][i] = from[i]) != '\0')
         ++i;
 }
 
 int main(void)
 {
     int len;
+    int n = 0;
     char line[MAXLINE];
+    char longline[2 * MAXLINE];
+    char SavingLine[MAXLINE][2 * MAXLINE];
     while ((len = getline(line, MAXLINE)) > 0)
     {
-        if (len > 5)
-            printf("%s", line);
+        if (len > 80 && len < MAXLINE - 1)
+        {
+            int i = 0;
+            for (i = 0; i < len; i++)
+            {
+                SavingLine[n][i] = line[i];             
+            }
+            n++;
+        }
+        else if (len == MAXLINE - 1 && line[len - 1] != '\n')
+        {
+            int copied = 0;
+            int tocopy = len;
+            memcpy(longline, line, tocopy);
+            copied += tocopy;
+            while (len == MAXLINE - 1 && line[len - 1] != '\n')
+            {
+                len = getline(line, MAXLINE);
+                if (len <= 0) break;
+                int remaining = 2 * MAXLINE - 1 - copied;
+                if (remaining <= 0) break;
+                tocopy = (len < remaining) ? len : remaining;
+                memcpy(longline + copied, line, tocopy);
+                copied += tocopy;
+            }
+            longline[copied] = '\0';
+            copy(SavingLine, longline, n);
+            n++;
+        }
     }
-
+    printf("大于80个字符的行有：\n");
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d:", i + 1);
+        for (int j = 0; SavingLine[i][j] != '\0'; j++)
+        {
+            putchar(SavingLine[i][j]);
+        }
+    }
     return 0;
 }
 
