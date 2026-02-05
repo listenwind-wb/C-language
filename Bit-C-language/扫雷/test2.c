@@ -15,15 +15,21 @@ void game()
 {
 	char mine[ROWS][COLS] = { 0 };//存放布置好的雷区
 	char show[ROWS][COLS] = { 0 };//存放排查的雷区
+	//初始化棋盘
+	InitBoard(mine, ROWS, COLS, '0');//mine 数组在没有布置雷的时候全部用'0'表示
+	InitBoard(show, ROWS, COLS, '*');//show 数组在没有布置雷的时候全部用*表示
+
+	//DisplayBoard(mine, ROW, COL);
+	//DisplayBoard(show, ROW, COL);
+
+	//布置雷
+	SetMine(mine, ROW, COL);
+
+	/*DisplayBoard(mine, ROW, COL);*/
 
 
-
-
-
-
-
-
-
+	//排查雷
+	FindMine(mine, show, ROW, COL);
 }
 
 
@@ -31,6 +37,8 @@ void game()
 int main()
 {
 	int input = 0;
+
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
@@ -39,7 +47,7 @@ int main()
 		switch (input)
 		{
 		case 1:
-			printf("扫雷\n");
+			game();
 			break;
 		case 0:
 			printf("退出游戏\n");
