@@ -48,5 +48,8 @@
     <ClCompile Include="1-17.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1-19.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

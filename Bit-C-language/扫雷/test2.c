@@ -20,7 +20,7 @@ void game()
 	InitBoard(show, ROWS, COLS, '*');//show 数组在没有布置雷的时候全部用*表示
 
 	//DisplayBoard(mine, ROW, COL);
-	//DisplayBoard(show, ROW, COL);
+	DisplayBoard(show, ROW, COL);
 
 	//布置雷
 	SetMine(mine, ROW, COL);

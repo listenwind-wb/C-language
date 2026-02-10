@@ -11,7 +11,10 @@
 
 int main()
 {
+	int a = 7;
 
+	int b = a << 1;
+	printf("a=%d\nb=%d\n", a, b);
 
 
 	

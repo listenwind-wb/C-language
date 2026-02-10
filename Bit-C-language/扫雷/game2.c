@@ -74,13 +74,18 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 {
 	int x = 0;
 	int y = 0;
-
-	while (1)
+	int win = 0;//找到非雷的个数
+	while (win < row * col - EASY_COUNT)
 	{
 		printf("请输入要排查的坐标:>");
 		scanf("%d %d", &x, &y);
 		if (x >= 1 && x <= row && y >= 1 && y <= col)
 		{
+			if (show[x][y] != '*')
+			{
+				printf("这个坐标已经排查过了，请重新输入！\n");
+				continue;
+			}
 			if (mine[x][y] == '1')
 			{
 				printf("很遗憾，你踩到雷了， 游戏结束！\n");
@@ -89,22 +94,24 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 			}
 			else
 			{
+				win++;
 				int count = get_mine_count(mine, x, y);
+				show[x][y] = count + '0';
+				DisplayBoard(show, ROW, COL);
+				
 			}
 		}
+		else
+		{
+			printf("坐标错误，请重新输入！\n");
+		}
+
 	}
-
-
-
-
-
-
-
-
-
-
-
-
+	if (win == row * col - EASY_COUNT)
+	{
+		printf("恭喜你，排雷成功！\n");
+		DisplayBoard(mine, ROW, COL);
+	}
 
 }
 
