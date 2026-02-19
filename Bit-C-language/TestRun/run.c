@@ -11,10 +11,8 @@
 
 int main()
 {
-	int a = 7;
+	//08
 
-	int b = a << 1;
-	printf("a=%d\nb=%d\n", a, b);
 
 
 	
