@@ -70,25 +70,12 @@
               "Title": "run.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\TestRun\\run.c",
               "RelativeDocumentMoniker": "TestRun\\run.c",
-              "ToolTip": "C:\\C-language\\C-language\\Chapter\\TestRun\\run.c*",
-              "RelativeToolTip": "TestRun\\run.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "ToolTip": "C:\\C-language\\C-language\\Chapter\\TestRun\\run.c",
+              "RelativeToolTip": "TestRun\\run.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-27T14:28:31.527Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "1-20.c",
-              "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1-20.c",
-              "RelativeDocumentMoniker": "Chapter1\\1-20.c",
-              "ToolTip": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1-20.c",
-              "RelativeToolTip": "Chapter1\\1-20.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-02-18T12:51:50.715Z",
               "EditorCaption": ""
             },
             {
@@ -101,6 +88,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "1-20.c",
+              "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1-20.c",
+              "RelativeDocumentMoniker": "Chapter1\\1-20.c",
+              "ToolTip": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1-20.c",
+              "RelativeToolTip": "Chapter1\\1-20.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-18T12:51:50.715Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "1-19.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Chapter\\Chapter1\\1-19.c",
@@ -109,8 +108,7 @@
               "RelativeToolTip": "Chapter1\\1-19.c",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-02-10T08:00:33.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T08:00:33.434Z"
             },
             {
               "$type": "Document",

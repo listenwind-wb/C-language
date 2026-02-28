@@ -11,7 +11,11 @@
 
 int main()
 {
-	//08
+	//11
+	int a = 10;
+	int* p = &a;
+	*p = 20;
+	printf("%d\n", a);
 
 
 
