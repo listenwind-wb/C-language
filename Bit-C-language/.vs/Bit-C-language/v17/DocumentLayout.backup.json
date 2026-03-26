@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{81822DB2-569A-4412-9483-8C1C6921896D}|TestRun\\TestRun.vcxproj|solutionrelative:TestRun\\run.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F62D268E-0D00-46DF-A40A-5C20FADC0992}|Project8\\Project8.vcxproj|C:\\C-language\\C-language\\Bit-C-language\\Project8\\text8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F62D268E-0D00-46DF-A40A-5C20FADC0992}|Project8\\Project8.vcxproj|solutionrelative:Project8\\text8.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{819AF7C9-2AE2-4B4F-A0C3-EA39ED4151CF}|Project7\\Project7.vcxproj|C:\\C-language\\C-language\\Bit-C-language\\Project7\\text7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{819AF7C9-2AE2-4B4F-A0C3-EA39ED4151CF}|Project7\\Project7.vcxproj|solutionrelative:Project7\\text7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -72,7 +76,7 @@
               "RelativeDocumentMoniker": "TestRun\\run.c",
               "ToolTip": "C:\\C-language\\C-language\\Bit-C-language\\TestRun\\run.c*",
               "RelativeToolTip": "TestRun\\run.c*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-27T14:06:02.901Z",
               "EditorCaption": ""
@@ -80,19 +84,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "text7.c",
-              "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project7\\text7.c",
-              "RelativeDocumentMoniker": "Project7\\text7.c",
-              "ToolTip": "C:\\C-language\\C-language\\Bit-C-language\\Project7\\text7.c",
-              "RelativeToolTip": "Project7\\text7.c",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwFgAAAAAAAAAAAAAAA==",
+              "Title": "text8.c",
+              "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project8\\text8.c",
+              "RelativeDocumentMoniker": "Project8\\text8.c",
+              "ToolTip": "C:\\C-language\\C-language\\Bit-C-language\\Project8\\text8.c",
+              "RelativeToolTip": "Project8\\text8.c",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwDYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-02-10T06:47:25.423Z",
+              "WhenOpened": "2026-03-24T07:28:09.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "text7.c",
+              "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project7\\text7.c",
+              "RelativeDocumentMoniker": "Project7\\text7.c",
+              "ToolTip": "C:\\C-language\\C-language\\Bit-C-language\\Project7\\text7.c",
+              "RelativeToolTip": "Project7\\text7.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-10T06:47:25.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "text6.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project6\\text6.c",
               "RelativeDocumentMoniker": "Project6\\text6.c",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "text5.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project5\\text5.c",
               "RelativeDocumentMoniker": "Project5\\text5.c",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "text4.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project4\\text4.c",
               "RelativeDocumentMoniker": "Project4\\text4.c",
@@ -128,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "text3.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project3\\text3.c",
               "RelativeDocumentMoniker": "Project3\\text3.c",
@@ -140,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "text2-2.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project2\\text2-2.c",
               "RelativeDocumentMoniker": "Project2\\text2-2.c",
@@ -152,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "text2.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project2\\text2.c",
               "RelativeDocumentMoniker": "Project2\\text2.c",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "text1.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Project1\\text1.c",
               "RelativeDocumentMoniker": "Project1\\text1.c",
@@ -176,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "01.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Practice\\01.c",
               "RelativeDocumentMoniker": "Practice\\01.c",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "02.c",
               "DocumentMoniker": "C:\\C-language\\C-language\\Bit-C-language\\Practice2\\02.c",
               "RelativeDocumentMoniker": "Practice2\\02.c",

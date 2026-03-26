@@ -11,15 +11,10 @@
 
 int main()
 {
-	//11
-	int a = 10;
-	int* p = &a;
-	*p = 20;
-	printf("%d\n", a);
-
-
-
-	
+	//04
+	int a = 1;
+	int b = (++a) + (++a) + (++a);
+	printf("%d\n", b);
 
 
 

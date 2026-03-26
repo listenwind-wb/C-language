@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "扫雷", "扫雷\扫雷.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project7", "Project7\Project7.vcxproj", "{819AF7C9-2AE2-4B4F-A0C3-EA39ED4151CF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8", "Project8\Project8.vcxproj", "{F62D268E-0D00-46DF-A40A-5C20FADC0992}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{819AF7C9-2AE2-4B4F-A0C3-EA39ED4151CF}.Release|x64.Build.0 = Release|x64
 		{819AF7C9-2AE2-4B4F-A0C3-EA39ED4151CF}.Release|x86.ActiveCfg = Release|Win32
 		{819AF7C9-2AE2-4B4F-A0C3-EA39ED4151CF}.Release|x86.Build.0 = Release|Win32
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Debug|x64.ActiveCfg = Debug|x64
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Debug|x64.Build.0 = Debug|x64
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Debug|x86.ActiveCfg = Debug|Win32
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Debug|x86.Build.0 = Debug|Win32
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Release|x64.ActiveCfg = Release|x64
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Release|x64.Build.0 = Release|x64
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Release|x86.ActiveCfg = Release|Win32
+		{F62D268E-0D00-46DF-A40A-5C20FADC0992}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

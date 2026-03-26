@@ -86,7 +86,36 @@ int main()
 	int b = ++a;
 	printf("a=%d, b=%d\n", a, b);// a=4 b=4
 
+	//12
+	int i = 0, a = 0, b = 2, c = 3;
 
+	i = a++ || ++b || c++;
+
+	printf("a = %d\nb = %d\nc = %d\ni = %d\n", a, b, c, i);
+
+	//13
+	int a = 3;
+	int b = 0;
+
+	if (a > 5)
+		b = 3;
+	else
+		b = -3;
+	b = (a > 5 ? 3 : -3);
+
+	int max = (a > b ? a : b);
+
+	//14
+	int a = 1;
+	int b = 2;
+	int c = (a > b, a = b + 10, a, b = a + 10);
+	printf("a=%d\nb=%d\nc=%d\n", a, b, c);
+
+	//15
+	int arr[10] = { 0 };
+	arr[7] = 8;
+	7[arr] = 9;
+	printf("arr[7]=%d\n", arr[7]);
 
 	return 0;
 }
